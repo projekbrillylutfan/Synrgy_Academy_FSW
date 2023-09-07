@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html dan Css</title>
+    <!-- stylesheet eksternal css -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <!-- stylesheet internal css -->
+    <style>
+        h1 {
+         color: green;
+         border: 1px black solid;
+         
+         /* padding-top: 10px;
+         padding-bottom: 10px;
+         padding-left: 10px;
+         padding-right: 10px; */
+
+         /* simple pading style */
+         padding: 10px, 10px, 10px, 10px;
+        }
+
+        p {
+            color: green;
+            font-weight: bold;
+        }
+
+        @media (min-width: 768px) {
+            h1 {
+                color: yellow;
+            }
+        }
+
+        /* selector id */
+        #paragraph-red {
+            color: red;
+        }
+
+        /* selector class */
+        .h1-purple {
+            color: purple;
+        }
+
+        .button {
+            color: white;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>ini judul</h1>
+    <div>
+        <p id="paragraph-red">child</p>
+    </div>
+    <h1 class="h1-purple">ini judul lain</h1>
+    <button class="button">button berubah warna</button>
+</body>
+</html>
