@@ -47,6 +47,26 @@
             color: white;
             background-color: red;
         }
+
+        /* psuedo class */
+        .button:hover {
+            color: black;
+            background-color: yellow;
+        }
+
+        .button:focus {
+            color: white;
+            background-color: green;
+        }
+
+        /* psuedo element */
+        .button::before {
+            content: 'halo';
+        }
+
+        .button::after {
+            content: 'bye';
+        }
     </style>
 </head>
 <body>
