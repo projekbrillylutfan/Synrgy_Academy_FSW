@@ -69,6 +69,134 @@
   line-height: 20px; /* 142.857% */
 }
 
-.d-flex {
-    
+.why-us-3 {
+  width: 468px;
+  color: #000;
+  /* Heading/24/Bold */
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.why-us-p {
+  width: 468px;
+  color: #000;
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.body {
+  width: 1440px;
+  height: 3226px;
+}
+
+.mobil-lengkap {
+  color: #000;
+
+  /* Title/16/Bold */
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+.mobil-lengkap-p {
+  width: 220px;
+  color: #000;
+
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.testimonial {
+  width: 1921px;
+  height: 438px;
+  flex-shrink: 0;
+}
+
+.testi-h3 {
+  width: 468px;
+  color: #000;
+  padding-left: 650px;
+  /* Heading/24/Bold */
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.p-testi {
+  width: 468px;
+  color: #000;
+  padding-left: 560px;
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.cta-banner {
+  width: 1168px;
+  height: 326px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  background: var(--primary-dark-blue-04, #0d28a6);
+}
+
+.cta-banner-h1 {
+  color: var(--neutral-01, #fff);
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 54px */
+  padding-top: 64px;
+  padding-left: 254px;
+  padding-right: 270px;
+}
+
+.cta-banner-p {
+  width: 468px;
+  color: var(--neutral-01, #fff);
+  text-align: center;
+
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.btn-success {
+  display: inline-flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  background: var(--primary-lime-green-04, #5cb85f);
+  color: var(--neutral-10, #fff);
+
+  /* Body/14/Bold */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
 }
